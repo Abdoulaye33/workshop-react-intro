@@ -12,12 +12,16 @@ function App() {
   return (
     <>
 
+    
+
       <main className="container">
         
 
       <Header />
+
       <AddTodo />
-      <ListTodos />
+
+      <ListTodos todos={todos} changeTodoStatus={changeTodoStatus}/>
 
 
 
