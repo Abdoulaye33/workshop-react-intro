@@ -1,17 +1,17 @@
 export default function ListTodos({ todos, changeTodoStatus }) {
     let initTodos = [
       {
-        id: '1',
+        id: '0',
         name: 'être reconnaissante',
         done: true
       },
       {
-        id: '2',
+        id: '1',
         name: 'Apprendre React',
         done: false
       },
       {
-        id: '3',
+        id: '2',
         name: 'Rager sur LOL',
         done: true
       }
